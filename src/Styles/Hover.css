@@ -1,0 +1,761 @@
+/* Normal Buttons  */
+.btnz {
+    border: none;
+    background: "#fff" !important;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.btnz:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer
+}
+
+/* Inverse color  Buttons  */
+.invizBtnz {
+    border: none;
+    border-radius: 10px;
+    background: "#fff" !important;
+    border: "2px solid #FFFFFF" !important;
+    border-radius: "700px" !important;
+    width: "250px" !important;
+    height: "50px" !important;
+    position: "relative";
+    top: "0%";
+    left: "-24%";
+    cursor: "pointer" !important;
+    padding: "10px 20px 10px 20px" !important;
+}
+
+.invizBtnz:hover {
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    cursor: "pointer";
+    background: "#C83B93" !important;
+}
+
+
+
+/* Transparent Bg Buttons  */
+.UnEvenBtnz {
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.UnEvenBtnz:hover {
+    background-color: white;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+/* Round Clickable Button  */
+.RoundBtnz {
+
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.RoundBtnz:hover {
+    transform: scale(1.005, 1.005);
+    box-shadow: 0 6px 10px rgba(211, 34, 108, 0.44);
+
+
+}
+
+
+
+/* Cards  */
+.Kardz {
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.Kardz:hover {
+    transform: scale(1.005, 1.005);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+/* PRofile Cards  */
+.KardzProf {
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.KardzProf:hover {
+    transform: scale(1.005, 1.005);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+
+}
+
+
+/* Hover text + button  */
+.HovText {
+    color: #000;
+}
+
+.HovText:hover {
+    color: #c83b93;
+    font-weight: 500;
+}
+
+
+/* Transparent Bg Buttons  */
+.btnzOpt {
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.btnzOpt:hover {
+    /* background-color: white; */
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.inviBtnz {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.inviBtnz:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    color: aqua !important;
+    border: 1px solid rgba(0, 255, 255, 0.362) !important;
+    /* color: #c83b93 !important; */
+
+}
+
+
+.navHovTextNoBg {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.navHovTextNoBg:hover {
+    color: #c83b93 !important;
+    cursor: pointer;
+    transform: scale(1.01, 1.01);
+}
+
+
+.navHovText {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.navHovText:hover {
+    /* transform: scale(1.1, 1.1); */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    /* color: aqua !important; */
+    /* border:1px solid rgba(0, 255, 255, 0.362) !important; */
+    color: #c83b93 !important;
+
+}
+
+.navHovText0 {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.navHovText0:hover {
+    transform: scale(1.09, 1.09);
+    color: #f3109c !important;
+}
+
+
+
+
+
+
+
+
+.navHovText1 {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.navHovText1:hover {
+    /* transform: scale(1.1, 1.1); */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    /* color: aqua !important; */
+    /* border:1px solid rgba(0, 255, 255, 0.362) !important; */
+    color: #ffffff !important;
+
+}
+
+.navHovText2 {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.navHovText2:hover {
+    /* transform: scale(1.1, 1.1); */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    /* color: aqua !important; */
+    border: 1px solid #c83b93 !important;
+    color: #c83b93 !important;
+
+}
+
+
+.revCol {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.revCol:hover {
+    /* transform: scale(1.1, 1.1); */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    /* color: aqua !important; */
+    border: 1px solid white !important;
+    color: #ffffff !important;
+
+}
+
+
+
+
+
+
+
+.nobg {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.nobg:hover {
+    transform: scale(1.02, 1.02);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); */
+    /* color: aqua !important; */
+    /* border:1px solid #c83b93 !important; */
+    /* color: #c83b93 !important; */
+
+}
+
+.GlowOne {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.GlowOne:hover {
+    transform: scale(1.1, 1.1);
+    /* -webkit-box-shadow: 0px 0px 85px 4px rgba(221, 52, 224, 0.3); */
+    /* -moz-box-shadow: 0px 0px 85px 4px rgba(221, 52, 224, 0.3); */
+    /* box-shadow: 0px 0px 85px 4px rgba(221, 52, 224, 0.3); */
+
+}
+
+.Reccom1 {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.Reccom1:hover {
+    transform: scale(1.02, 1.02);
+    color: #c83b93 !important;
+}
+
+.Glassy {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+.Glassy:hover {
+    /* From https://css.glass */
+    background: rgba(183, 43, 158, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(183, 43, 158, 0.3);
+
+}
+
+
+
+
+
+
+
+
+
+/* _____________________________________________________________________________ */
+
+.slidecontainer {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 15px;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 30px;
+    height: 15px;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+
+
+.active_btnz {
+    background-color: #C83B93 !important;
+    color: #fff !important;
+}
+
+
+.hoverpe:hover {
+    background-color: #84787f1d !important;
+
+}
+
+.act_btn {
+    color: #C83B93 !important;
+}
+
+.activeButtonFilter {
+    background-color: #C83B93 !important;
+    color: #fff !important;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+
+
+
+.vizElement:hover~.revElement {
+    display: block;
+    transition: 2s ease-out;
+}
+
+.revElement:hover~.vizElement {
+    display: block;
+    transition: ease-in-out
+}
+
+.vizElement:hover {
+    display: none;
+    transition: ease-in-out
+}
+
+.vizElement {
+    display: block;
+    transition: all 2s;
+
+}
+
+.revElement {
+    display: none;
+    transition: all 2s;
+
+}
+
+
+/* ____SLIDE TEXT SCROLL ANIMATION_______ */
+.fade-in-text {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(40px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+    animation-delay: 1000s;
+}
+
+
+/* 2.FADE UPWARDS */
+.fade-in-text-up {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(40px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in-up {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+    animation-delay: 1000;
+}
+
+
+/* 3.FLIP ANIMATION */
+@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(180deg);
+    }
+}
+
+/* Apply the flip animation to the element */
+.flip-element {
+    animation: flip 1s ease-in-out forwards;
+    transform-style: preserve-3d;
+    /* Necessary for the 3D effect */
+    backface-visibility: hidden;
+    /* Hide the back face during animation */
+}
+
+.flip-element-card {
+    animation: flip 1s ease-in-out forwards;
+    transform-style: preserve-3d;
+    /* Necessary for the 3D effect */
+    transform: perspective(400px) rotateY(0deg);
+    backface-visibility: hidden;
+    /* Hide the back face during animation */
+}
+
+.fliped-element-card {
+    animation: flip 1s ease-in-out forwards;
+    transform-style: preserve-3d;
+    /* Necessary for the 3D effect */
+    backface-visibility: hidden;
+    /* Hide the back face during animation */
+    transform: perspective(400px) rotateY(180deg);
+}
+
+
+/* 4.FADE right */
+.fade-in-text-right {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-40px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in-right {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+    animation-delay: 500;
+}
+
+
+
+/* 5.Pop Up animation  */
+.pop-in {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+.pop {
+    transform: scale(1.3, 1.3);
+    opacity: 2;
+    filter: blur(0);
+    animation-delay: 200;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+
+
+
+/* 4.FADE LEFT */
+.fade-in-text-left {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(40px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in-left {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+    animation-delay: 500;
+}
+
+
+
+
+.fade-in-only {
+    opacity: 0;
+    filter: blur(5px);
+    /* transform: translateX(40px); */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-only {
+    opacity: 1;
+    /* transform: translateX(0); */
+    filter: blur(0);
+    animation-delay: 1000s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _______________BUTTON AUTO COLOR CHANGE ____________________________ */
+/* Define a keyframe animation */
+@keyframes colorChange {
+    0% {
+        background-color: transparent;
+        /* Start and end with a transparent background */
+    }
+
+    100% {
+        background-color: red;
+        /* Change background color to red at the midpoint of the animation */
+    }
+}
+
+/* Style the container for the three divs */
+.container {
+    display: flex;
+    /* Display the divs in a row */
+    justify-content: space-between;
+    /* Add space between the divs */
+    width: 300px;
+    /* Set a fixed width for the container */
+}
+
+/* Style the individual divs */
+.div-box {
+    background-color: transparent;
+    /* Initial background color is transparent */
+    animation: colorChange 12s linear infinite;
+    /* Apply the colorChange animation */
+}
+
+/* Adjust animation delays and keyframes for each div */
+.div-box:nth-child(1) {
+    animation-delay: 0s;
+    /* Start the animation for the first div after 2 seconds */
+    animation-name: colorChange1;
+    /* Use a different animation name */
+}
+
+.div-box:nth-child(2) {
+    animation-delay: 2s;
+    /* Start the animation for the second div after 4 seconds */
+    animation-name: colorChange2;
+    /* Use a different animation name */
+}
+
+.div-box:nth-child(3) {
+    animation-delay: 4s;
+    /* Start the animation for the third div after 6 seconds */
+    animation-name: colorChange3;
+    /* Use a different animation name */
+}
+
+.div-box:nth-child(4) {
+    animation-delay: 6s;
+    /* Start the animation for the third div after 6 seconds */
+    animation-name: colorChange4;
+    /* Use a different animation name */
+}
+
+/* Define separate keyframes for each div */
+@keyframes colorChange1 {
+    0% {
+        background-color: transparent;
+        /* Start and end with a transparent background */
+    }
+
+    100% {
+        background-color: red;
+        /* Change background color to red at the midpoint of the animation */
+    }
+}
+
+@keyframes colorChange2 {
+    0% {
+        background-color: transparent;
+        /* Start and end with a transparent background */
+    }
+
+    100% {
+        background-color: red;
+        /* Change background color to red at the midpoint of the animation */
+    }
+}
+
+@keyframes colorChange3 {
+    0% {
+        background-color: transparent;
+        /* Start and end with a transparent background */
+    }
+
+    100% {
+        background-color: red;
+        /* Change background color to red at the midpoint of the animation */
+    }
+}
+
+@keyframes colorChange4 {
+    0% {
+        background-color: transparent;
+        /* Start and end with a transparent background */
+    }
+
+    100% {
+        background-color: red;
+        /* Change background color to red at the midpoint of the animation */
+    }
+}
+
+.KardzLandz {
+    transition: all ease-in-out 0.2s;
+    /* transition-timing-function: cubic-bezier(0.5, 3, 0, 1); */
+}
+
+.KardzLandz:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    background-color: #C83B93;
+    color: #fff;
+    width: 38rem;
+}
+
+
+.KardzLandz:first-child {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    background-color: #C83B93;
+    color: #fff;
+    width: 38rem;
+}
+
+.Faqz {
+    /* position: relative; */
+    /* width: 122px; */
+    /* height: 47px; */
+    color: #FFFFFF;
+    border: none;
+    /* left: -105px; */
+    /* top: 20px; */
+    transition: ease-in-out 1s;
+    background: linear-gradient(99.05deg, #D23291 1.89%, #20F0BC 84.67%);
+    box-shadow: 0px 1px 21px rgba(32, 240, 188, 0.6);
+    border-radius: 10px
+}
+
+/* .Faqz:hover {
+    transition: ease-in-out all 12ms;
+    box-shadow: 0px 1px 21px rgba(32, 240, 188, 0.8);
+    background: linear-gradient(99.05deg, #20f0bca7 1.89%, #d23292a5 84.67%);
+    border: 1px solid aqua;
+    transition: ease-in-out 0.4s;
+  } */
+
+
+
+
+
+/* * ____________vai_________________ * */
+/* PROFILE INFLUENCERS  */
+
+
+.InstaProfileTab1 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.InstaProfileTab1 tr td {
+    border-right: 1px solid #24232341;
+    padding-left: 40px;
+}
+
+.InstaProfileTab1 tr td:last-child {
+    border-right: 0;
+}
+
+
+
+.instaCard1txt1 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #010705
+}
+
+.instaCard1txt2 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #010705
+}

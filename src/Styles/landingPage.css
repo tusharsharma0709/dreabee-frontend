@@ -1,0 +1,331 @@
+.Ellipse3 {
+    position: relative;
+    left: 5rem;
+    background: #20F0BC;
+    filter: blur(184.5px);
+}
+
+.Ellipse4 {
+    position: relative;
+    left: 35rem;
+    background: #D03491;
+    filter: blur(102px);
+}
+
+
+/* footer bg colors  */
+
+
+.Ellipse1F {
+    width: 421px;
+    height: 421px;
+    background: #20F0BC;
+    filter: blur(184.5px);
+}
+
+.Ellipse2F {
+    width: 297px;
+    height: 297px;
+    background: #D03491;
+    filter: blur(102px);
+
+}
+
+.Ellipse3F {
+
+    background: rgba(208, 52, 145, 0.5);
+    filter: blur(242px);
+    width: 999px;
+    height: 1148px;
+}
+
+/* footer bg colors  */
+
+
+/* icon bg creator page  */
+.EllipseBg {
+    /* position: relative; */
+    /* left: 5rem; */
+    background: #20F0BC;
+    filter: blur(35px);
+}
+
+/* icon bg creator page  */
+
+
+
+
+
+.boxx {
+    position: relative;
+    left: 5rem;
+    bottom: 35rem;
+    box-sizing: border-box;
+    width: 609px;
+    height: 604px;
+    background: rgba(255, 255, 255, 0.34);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(11.5px);
+    border-radius: 9px;
+}
+
+.bloxx {
+    position: relative;
+    left: 5rem;
+    bottom: 35rem;
+    box-sizing: border-box;
+    width: 609px;
+    height: 604px;
+    /* background: rgba(255, 255, 255, 0.34); */
+    /* border: 1px solid #FFFFFF; */
+    backdrop-filter: blur(11.5px);
+    border-radius: 9px;
+}
+
+.invBoxx {
+    position: relative;
+    left: 5rem;
+    bottom: 35rem;
+    box-sizing: border-box;
+    width: 609px;
+    height: 604px;
+    background: transparent;
+    /* border: 1px solid #FFFFFF; */
+    /* backdrop-filter: blur(11.5px); */
+    border-radius: 9px;
+}
+
+
+
+
+
+
+.huhu {
+
+    border-radius: 4rem 4rem 4rem 4rem;
+    background: rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(11.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.huhuL {
+
+    border-radius: 10rem 10rem 0rem 0rem;
+    background: rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(11.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.rect {
+    position: relative;
+    width: 1117.98px;
+    height: 67.07px;
+    left: -14rem;
+    background: #FFF7F5;
+    transform: matrix(0.99, 0.15, -0.16, 0.99, 0, 0);
+}
+
+.rect2 {
+    position: relative;
+    width: 1117.98px;
+    height: 67.07px;
+    left: -14.6rem;
+    background: #FFEBE5;
+    transform: matrix(0.99, 0.15, -0.16, 0.99, 0, 0);
+}
+
+.rect3 {
+    position: relative;
+    width: 1117.98px;
+    height: 67.07px;
+    left: -15.2rem;
+    background: #FFF9F7;
+    transform: matrix(0.99, 0.15, -0.16, 0.99, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+/* _________________________________ */
+.mula {
+    width: 500px;
+    border: none;
+    height: 90px;
+    background: transparent;
+    border-radius: 500px;
+    margin-top: 0.5rem
+}
+.mula-hov{
+    width: 500px;
+    border: none;
+    height: 90px;
+    background: transparent;
+    border-radius: 500px;
+    margin-top: 0.5rem;
+    transition: all 0.4s;
+    box-shadow: "0px 5px 20px rgba(0, 0, 0, 0.01)" !important;
+}
+
+
+.mula-hov:hover{
+  transform: scale(1.1, 1.1);
+  border-radius: "500px";
+  box-shadow: "0px 5px 20px rgba(0, 0, 0, 0.15)" !important;
+}
+
+
+.mulaText {
+    position: relative;
+    width: 455px;
+    height: 56px;
+    top: 1.6rem;
+    left: rem;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000
+}
+
+.mulaHex::before {
+    content: "\2B22";
+    color: #c93992cc;
+    font-size: 70px;
+    border-radius: 15px;
+    position: relative;
+    left: 2.2rem;
+    bottom: 4px;
+}
+
+.mulaHex3::before {
+    content: "\2B22";
+    color: #c93992cc;
+    font-size: 70px;
+    border-radius: 15px;
+    /* position: relative; */
+    /* left: 2.2rem; */
+    /* bottom: 4px; */
+}
+
+.mulaHex2::before {
+    content: "\2B22";
+    color: #c93992cc;
+    font-size: 60px;
+    border-radius: 15px;
+    position: relative;
+    left: 2.2rem;
+    bottom: 4px;
+}
+
+.hex::before {
+    content: "\2B22";
+    color: #c93992cc;
+    font-size: 80px;
+    border-radius: 15px;
+    position: relative;
+    left: 2.2rem;
+    bottom: 10px;
+}
+
+/* _________________________________ */
+
+
+
+.txt1 {
+    color: #7E7E7E;
+    /* position: absolute; */
+    /* width: 456px; */
+    /* height: 120px; */
+    /* left: 732px; */
+    /* top: 2460px; */
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 94% */
+
+    /* text-align: center; */
+
+}
+
+.txt2 {
+    /* position: absolute; */
+    /* width: 456px; */
+    /* height: 120px; */
+    left: 732px;
+    top: 2460px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 94% */
+    text-align: center;
+    color: #000000;
+
+}
+
+
+
+.name1 {
+    position: relative;
+    left: 1rem;
+    font-weight: 700;
+    font-size: 39px;
+    color: #FFFFFF;
+}
+
+.name2 {
+    position: relative;
+    left: 1.4rem;
+    top: -0.5rem;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.sho {
+    background: linear-gradient(91.26deg, #20F0BC 0%, #D42E90 100%);
+
+}
+
+#show {
+    box-shadow: linear-gradient(91.26deg, #20F0BC 0%, #D42E90 100%) 2px 4px 2px 2px;
+}
+
+/* _____________________________ */
+.bussNavv {
+    background: rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(11.5px);
+}
+
+/* _____________________________ */
+
+.inputs {
+    width: 200px !important;
+}
+
+.shaow {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+
+
+.slick-slide {
+    height: 30rem;
+
+}
+
+
+
+/* _____vshark___new___code_______ */
+
+.hidden-div {
+    display: none;
+}

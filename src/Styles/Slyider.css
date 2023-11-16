@@ -1,0 +1,27 @@
+/* SlideInOut.css */
+
+.slide-container {
+    position: fixed;
+    top: 0px;
+    right: -360px;
+    /* Start off-screen */
+    width: 360px;
+    height: 100%;
+    background-color: #f0f0f0;
+    transition: right 0.3s;
+}
+
+.slide-content {
+    margin-right: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 2px;
+}
+
+.slide-in {
+    right: 0;
+}
+
+.slide-out {
+    right: -370px;
+}
